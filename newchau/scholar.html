@@ -7,8 +7,36 @@
   html, body, p, li, td, th, dd, blockquote, font, a {
     font-size: 115% !important;
   }
+  body {
+    text-align: center !important;
+  }
+  table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
   td, p, font, blockquote {
-    text-align: justify !important;
+    text-align: left !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center !important;
+  }
+  div[align="center"] {
+    text-align: center !important;
+  }
+  /* Mobile responsive */
+  @media screen and (max-width: 768px) {
+    html, body, p, li, td, th, dd, blockquote, font, a {
+      font-size: 100% !important;
+    }
+    table[width="70%"] {
+      width: 95% !important;
+    }
+    table {
+      width: 95% !important;
+    }
+    body {
+      padding: 10px !important;
+    }
   }
 </style>
 
